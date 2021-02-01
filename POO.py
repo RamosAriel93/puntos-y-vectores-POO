@@ -1,7 +1,7 @@
 import math
 
 
-class Punto:
+class Point:
     def __init__(self, x=0, y=0):
         self.x = x
         self.y = y
@@ -33,9 +33,9 @@ class Punto:
         print(f"La distancia entre los puntos {self} y {p} es {mod}")
 
 
-a = Punto(5, 8)
-b = Punto(10, -2)
-c = Punto(-4, 6)
+a = Point(5, 8)
+b = Point(10, -2)
+c = Point(-4, 6)
 
 # Ubicacion del cuadrante
 a.cuadrante()
